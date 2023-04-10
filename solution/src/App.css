@@ -1,5 +1,9 @@
 .App {
   height: 100vh;
   max-width: 375px;
-  padding: 1rem 0.3rem;
+  padding: 1rem 1rem;
+}
+
+main {
+  padding-bottom: 1rem;
 }

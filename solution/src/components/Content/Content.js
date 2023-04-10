@@ -1,5 +1,7 @@
 import web3mobile from './../../assets/images/image-web-3-mobile.jpg';
 import styles from './Content.module.css';
+import New from './New';
+import TopThreeArticles from './TopThreeArticles';
 
 const Content = () => {
     return (
@@ -11,6 +13,8 @@ const Content = () => {
                 But is it really fulfilling its promise?
             </p>
             <button>READ MORE</button>
+            <New />
+            <TopThreeArticles />
         </div>
     );
 }

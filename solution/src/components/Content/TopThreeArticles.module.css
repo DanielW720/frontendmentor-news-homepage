@@ -1,0 +1,32 @@
+.top-three-articles {
+    margin: 3rem 0;
+}
+
+.top-article {
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+.top-article img {
+    width: 30%;
+}
+
+.top-article span {
+    margin-left: 1rem;
+}
+
+.top-article span h2 {
+    font-size: xx-large;
+    color: var(--grayishblue);
+}
+
+.top-article span h3 {
+    font-size: large;
+    color: var(--verydarkblue);
+    margin: 0.5rem 0;
+}
+
+.top-article span p {
+    margin: 0;
+}

@@ -33,4 +33,5 @@ body {
 
 p {
   color: var(--darkgrayishblue);
+  line-height: 1.5rem;
 }

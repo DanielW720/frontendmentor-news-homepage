@@ -1,0 +1,28 @@
+.new {
+    background-color: var(--verydarkblue);
+    margin-bottom: 2rem;
+}
+
+.new article {
+    padding: 1rem;
+}
+
+.new h2 {
+    color: var(--softorange);
+    margin-bottom: 1rem;
+}
+
+.new h3 {
+    color: var(--offwhite);
+}
+
+.new p {
+    color: var(--grayishblue);
+    margin-top: 0.5rem;
+}
+
+.new hr {
+    border: 1px solid var(--grayishblue);
+    opacity: 0.5;
+    margin-bottom: 1.8rem;
+}
