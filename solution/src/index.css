@@ -21,13 +21,14 @@ html {
 }
 
 body {
+  background-color: var(--offwhite);
   font-family: 'Inter', 'Segoe UI', 'Roboto', 'Oxygen';
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   display: flex;
   flex-direction: column;
-  justify-content: start;
+  justify-content: flex-start;
   align-items: center;
 }
 
