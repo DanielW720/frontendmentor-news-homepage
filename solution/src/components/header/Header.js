@@ -23,12 +23,16 @@ const Header = () => {
                 }}
                 style={
                     {
-                        "left": `${showNav ? '0' : '100%'}`
+                        // If showNav, instantly "drag" the nav menu in from the right
+                        "left": `${showNav ? '0' : '100%'}`,
+                        // Keep dark background when nav menu swipes back to the right
+                        "transitionDelay": `${showNav ? '0s' : '0.25s'}`
                     }
                 }>
                 <nav style={
                     {
-
+                        // If showNav, transition in nav menu from the right
+                        "left": `${showNav ? '30%' : '100%'}`
                     }
                 }>
                     <div className={styles["close-icon-container"]}>
