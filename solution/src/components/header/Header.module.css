@@ -49,6 +49,7 @@ nav {
 ul {
     padding: 0;
     margin: 1.5rem;
+    color: var(--darkgrayishblue);
 }
 
 li {
@@ -80,6 +81,7 @@ li:hover {
         position: initial;
         width: initial;
         height: initial;
+        align-self: flex-start;
     }
 
     nav {
