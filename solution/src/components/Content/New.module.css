@@ -3,17 +3,23 @@
     margin-bottom: 2rem;
 }
 
-.new article {
-    padding: 1rem;
+.article {
+    height: 100%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .new h2 {
     color: var(--softorange);
     margin-bottom: 1rem;
+    font-size: 2.3rem;
 }
 
 .new h3 {
     color: var(--offwhite);
+    font-size: 1.3rem;
 }
 
 .new p {
@@ -26,3 +32,9 @@
     opacity: 0.5;
     margin-bottom: 1.8rem;
 }
+
+.new a:hover {
+    color: var(--softorange);
+}
+
+@media screen and (min-width: 720px) {}

@@ -26,6 +26,9 @@ body {
   font-size: 15px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+#root {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -35,4 +38,9 @@ body {
 p {
   color: var(--darkgrayishblue);
   line-height: 1.5rem;
+}
+
+a {
+  color: inherit;
+  text-decoration-line: none;
 }

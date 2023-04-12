@@ -39,11 +39,11 @@ const Header = () => {
                         <img src={menuClose} alt="Menu close button" onClick={handleShowNavClick} />
                     </div>
                     <ul>
-                        <li>Home</li>
-                        <li>New</li>
-                        <li>Popular</li>
-                        <li>Trending</li>
-                        <li>Categories</li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Popular</a></li>
+                        <li><a href="#">Trending</a></li>
+                        <li><a href="#">Categories</a></li>
                     </ul>
                 </nav>
             </div>

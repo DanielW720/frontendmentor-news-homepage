@@ -46,14 +46,61 @@ nav {
     align-self: end;
 }
 
-nav ul {
+ul {
     padding: 0;
     margin: 1.5rem;
 }
 
-nav ul li {
+li {
     list-style-type: none;
-    margin-bottom: 1.2rem;
+    margin-bottom: 1.3rem;
     font-size: 1.1rem;
     font-weight: 500;
+}
+
+li:hover {
+    color: var(--softorange);
+}
+
+@media screen and (min-width: 770px) {
+    .header {
+        margin: 1.5rem 0;
+    }
+
+    .w-logo {
+        font-size: 45px;
+    }
+
+    .header button {
+        display: none;
+    }
+
+    .nav-container {
+        background-color: initial;
+        position: initial;
+        width: initial;
+        height: initial;
+    }
+
+    nav {
+        position: initial;
+        height: initial;
+        width: initial;
+        display: initial;
+    }
+
+    .close-icon-container {
+        display: none;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin: 0 0 0 2rem;
+        font-size: 1.4rem;
+    }
 }

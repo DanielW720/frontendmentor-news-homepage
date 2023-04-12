@@ -13,6 +13,9 @@
 }
 
 .top-article span {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin-left: 1rem;
 }
 
@@ -24,9 +27,29 @@
 .top-article span h3 {
     font-size: large;
     color: var(--verydarkblue);
-    margin: 0.5rem 0;
 }
 
 .top-article span p {
     margin: 0;
+    padding: 0 0.2rem 0 0;
+}
+
+a:hover {
+    color: var(--softred);
+}
+
+@media screen and (min-width: 770px) {
+    .top-three-articles {
+        grid-column-start: 1;
+        grid-column-end: 4;
+        margin: 0rem 0 2rem;
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 395px);
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .top-three-articles {
+        grid-template-columns: repeat(auto-fill, 30%);
+    }
 }
