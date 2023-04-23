@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution](https://your-solution-url.com)
-- Live Site URL: [Live site](https://your-live-site-url.com)
+- Solution URL: [Solution](./solution)
+- Live Site URL: [Live site](https://verdant-empanada-97e9f2.netlify.app/)
 
 ## My process
 
