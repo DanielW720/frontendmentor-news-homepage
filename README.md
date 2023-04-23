@@ -24,8 +24,6 @@ Users should be able to:
 - Solution URL: [Solution](./solution)
 - Live Site URL: [Live site](https://verdant-empanada-97e9f2.netlify.app/)
 
-## My process
-
 ### Built with
 
 - [React](https://reactjs.org/) - JS library
